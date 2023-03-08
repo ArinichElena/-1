@@ -10,9 +10,9 @@
 
 Схема БД [https://app.sqldbm.com/PostgreSQL/Edit/p252077/#][схема бд]
 
-![Схема](C:\Users\earinich\Desktop\Обучение 2023\БД\СхемаБДV1.png)
+![Схема](C:\Users\earinich\Desktop\Обучение 2023\БД\СхемаБДV1.jpg)
 
-<image src="C:\Users\earinich\Desktop\Обучение 2023\БД\СхемаБДV1.png" alt="Схема БД">
+<image src="C:\Users\earinich\Desktop\Обучение 2023\БД\СхемаБДV1.jpg" alt="Схема БД">
 
 **referral_doctor - факт направления к врачу**
 | № | Наименование | Описание | Тип данных | Ограничение | Обязательность заполнения | Примечание |
