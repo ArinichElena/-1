@@ -10,8 +10,6 @@
 
 Схема БД [https://app.sqldbm.com/PostgreSQL/Edit/p252077/#][схема бд]
 
-![Схема](/https://github.com/ArinichElena/-1/blob/main/СхемаБДV1.jpg)
-
 <image src="https://github.com/ArinichElena/-1/blob/main/СхемаБДV1.jpg">
 
 **referral_doctor - факт направления к врачу**
