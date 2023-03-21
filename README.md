@@ -72,7 +72,7 @@ code_diag VARCHAR(32),
 comment_doctor TEXT  
 );  
 
-*простой индекс по полю code_diag. можно по нему группировать/отбирать данные по коду диагноза*  
+*простой индекс по полю коду диагноза. можно по нему группировать/отбирать данные по коду диагноза*  
 
 create index idx_reception_diag  
 on reception_doctor(code_diag);  
