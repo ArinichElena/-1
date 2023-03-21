@@ -73,10 +73,12 @@ comment_doctor TEXT
 );  
 
 *простой индекс по полю code_diag. можно по нему группировать/отбирать данные по коду диагноза*  
+
 create index idx_reception_diag  
 on reception_doctor(code_diag);  
 
 *простой индекс по дате приема. для составление графиков по дням, для отслеживания количества приемов, отбор только необходимого периода*  
+
 create index idx_recep_doc_load_date  
 on reception_doctor(load_date);  
 
@@ -146,6 +148,7 @@ comment_research TEXT
 );  
 
 *простой индекс по дате исследования. для составление графиков по дням, для отслеживания количества исследований, отбор только необходимого периода*  
+  
 create index idx_fact_research_load_date   
 on fact_research(load_date);  
 
