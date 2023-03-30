@@ -20,12 +20,12 @@
 | 3 | specialization_id | Идентификатор специализации врача | int | FK (specialization.id) | + | Дополнительная информация по справочнику Специализация врача |
 | 4 | load_date | Дата заведения | datetime | | + | |
 
-create table referral_doctor (  
-id BIGSERIAL primary key,  
-patient_id BIGINT not null references patient,  
-specialization_id INT not null references specialization,  
-load_date TIMESTAMP default CURRENT_TIMESTAMP   
-);  
+> create table referral_doctor (  
+> id BIGSERIAL primary key,  
+> patient_id BIGINT not null references patient,  
+> specialization_id INT not null references specialization,  
+> load_date TIMESTAMP default CURRENT_TIMESTAMP   
+> );  
 
 **record_doctor - факт записи к врачу**
 | № | Наименование | Описание | Тип данных | Ограничение | Обязательность заполнения | Примечание |
